@@ -28,6 +28,7 @@ body header nav .social a {
   background-color: #c1d0d6;
   border-radius: 50%;
   flex-wrap: wrap;
+  color: #ffffff;
 }
 
 body .header-inner {
