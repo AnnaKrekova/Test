@@ -1,0 +1,40 @@
+@import url(/css/reset.css);
+@import url(/css/animation.css);
+@import url(/css/fontello-codes.css);
+@import url(/css/fontello-embedded.css);
+@import url(/css/fontello-ie7-codes.css);
+@import url(/css/fontello-ie7.css);
+@import url(/css/fontello.css);
+@import url(/css/stylesheet.css);
+
+$social: #c1d0d6;
+$header-background: #b5d2df;
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    header {
+        justify-content: space-between;
+        background: $header-background 
+        url("img/Layer_5.png");
+        nav {
+            border-bottom: 1px solid $social;
+        .social {
+            a {
+                display: inline-block;
+                padding: 3px 2px;
+                border: 1px solid $social;
+                background-color: $social;;
+                border-radius: 50%;
+                flex-wrap: wrap;
+            } 
+        }  
+    }
+        
+    }
+    .header-inner {
+        padding-top: 90px;
+        justify-content: center;
+    }
+}
