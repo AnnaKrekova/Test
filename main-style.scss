@@ -9,6 +9,7 @@
 
 $social: #c1d0d6;
 $header-background: #b5d2df;
+$white: #ffffff;
 
 body {
     width: 100%;
@@ -28,6 +29,7 @@ body {
                 background-color: $social;;
                 border-radius: 50%;
                 flex-wrap: wrap;
+                color: $white;
             } 
         }  
     }
